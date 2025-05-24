@@ -27,6 +27,7 @@ const ContentProvider = (props) => {
      setResultData(prev=>prev+nextWord);
    },75*index)
  }
+//  console.log(prev)
 
  const newchat = ()=>{
     setLoading(false)
@@ -66,7 +67,7 @@ const ContentProvider = (props) => {
     
     const nextWord = newResponseArray[i];
     delaypara(i,nextWord+" ")
-    
+
    }
    setLoading(false)
    setInput("")

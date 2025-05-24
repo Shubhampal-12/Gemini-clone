@@ -26,6 +26,8 @@ const Maine = () => {
             <p>Gemini</p>
             <img src={imag} alt="" />          
         </div>
+
+        
         <div className="main-container">
 
 
